@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scorebox-home, .scorebox-away {
+    display: flex;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    color: #F94F6D;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: 80px;
+}
+
+.teamtext {
+    text-align: center;
+    margin-bottom: 5px;
+    width: 100%;
+    letter-spacing: .35em
+}
+
+.buttondiv {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: transparent;
+    border: 1px solid #9AABD8;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 10px;
+    width: 100%;
+    margin-right: 5px;
+    border-radius: 5px;
+    padding: 7px;
+  }
+  
+  .reset-btn-div {
+      display: flex;
+      padding-top: 10px;
+      justify-content: center;
+
+  }
+  
+  #resetbutton {
+      width: 50px;
+  }
