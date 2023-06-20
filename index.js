@@ -36,3 +36,10 @@ function awayAdd3() {
     awayScore += 3
     scoreBoxAwayEl.textContent = awayScore
 }
+
+function resetscore() {
+    homeScore = 0
+    awayScore = 0
+    scoreBoxHomeEl.textContent = homeScore
+    scoreBoxAwayEl.textContent = awayScore
+}
